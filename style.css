@@ -397,7 +397,7 @@ body {
 
 .rowcafeteria {
     background-color: #00000083;
-    background: linear-gradient(to right, hsla(0, 1%, 32%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/cafeteria1.jpg);
+    background: linear-gradient(to right, hsla(0, 26%, 50%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/cafeteria1.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
