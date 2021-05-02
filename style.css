@@ -397,7 +397,11 @@ body {
 
 .rowcafeteria {
     background-color: #00000083;
+<<<<<<< HEAD
     background: linear-gradient(to right, hsla(0, 1%, 32%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/cafeteria1.jpg);
+=======
+    background: linear-gradient(to right, hsla(0, 26%, 50%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/cafeteria2.jpg);
+>>>>>>> origin/Juan
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -478,7 +482,11 @@ form .con {
 /* the header form form */
 
 header {
+<<<<<<< HEAD
     margin: 2% auto 10% auto;
+=======
+    margin: 0% auto 10% auto;
+>>>>>>> origin/Juan
     text-align: center;
 }
 
@@ -698,4 +706,8 @@ button:hover {
     font-size: 13px;
     color: #0C7489;
     margin-bottom: 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/Juan
