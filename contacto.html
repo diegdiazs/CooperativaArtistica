@@ -11,101 +11,76 @@
 </head>
 
 <body>
-    <div class="container-fluid">
 
-        <!--Header Y Nav-->
-        <div class="contariner-fluid">
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="exposiciones.html">Exposiciones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registrarse.html">Registrarse</a>
+            <a href="inicio sesion.html">Iniciar Sesion</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Galeria Grupo Cero</h1>
+            <h2>Deleitate con el arte al alcance de tus manos</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #FDCA40;"></path>
+            </svg></div>
+    </header>
 
-            <header class="row">
-                <div class="text-center col-12 col-md-12 col-lg-12 col-xl-12 bg-dark text-left">
-                    <img class="rounded-circle" src="img/logov2.png" height="100" alt="">
-                </div>
+    <!--MainPagina-->
 
-            </header>
-            <div class="row">
-
-                <nav class="navbar navbar-expand-md m-0 p-0   text-center navbar-light bg-light col-12 col-md-12 col-lg-12 col-xl-12">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse font-weight-bold " id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item ">
-                                <a class="nav-link " href="index.html">Home </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-
-
-        </div>
-        <!--Fin Header Y Nav-->
-
-
-
-        <hr class="my-5">
-        <!--Fin Header Y Nav-->
-
-        <!--MainPagina-->
-        <div class="container">
-            <section class="row">
-                <article class="border mt-5 col-12 col-md-12 col-lg-6 col-xl-6">
-                    <!--Formulario Contacto-->
-                    <h1 class="text-center">Contactanos! </h1>
-                    <form action="" method="post" class=" col-12 col-md-12 col-lg-12 col-xl-12">
-                        <fieldset>
-                            <div class="cont1">
-
-                                <br>
-                                <br>
-                                <br>
-                                <label class="m-1" for="mail">Tipo de arte que deseas:</label>
-                                <input class="ml-3" type="text" id="arte" name="arte" placeholder=" Ej. Orfebreria, Pintura artistica..." size="40" required="required">
-                                <br>
-                                <br>
-                                <label class="m-1" for="nombre">Idea de proyecto que deseas:</label>
-                                <input class="ml-1" type="text" id="idea" name="idea" placeholder="Cuentanos en breves palabras tu idea" size="30" required="required">
-                                <br>
-                                <br>
-                                <label class="m-1" for="nombre">Ingresa tus datos para contactarnos contigo:</label>
-                                <input class="ml-1" type="text" id="nombre" name="nombre" placeholder="Nombre completo" size="30" required="required">
-                                <input class="ml-1" type="text" id="correo" name="correo" placeholder="Correo electrónico" size="30" required="required">
-                                <input class="ml-1" type="text" id="numero" name="numero" placeholder="Número de contacto" size="30" required="required">
-                                <br>
-                                <br>
-                                <br>
-                            </div>
-                        </fieldset>
+    <section class="row">
+        <article class="border mt-5 col-12 col-md-12 col-lg-6 col-xl-6">
+            <!--Formulario Contacto-->
+            <h1 class="text-center">Contactanos! </h1>
+            <form action="" method="post" class=" col-12 col-md-12 col-lg-12 col-xl-12">
+                <fieldset>
+                    <div class="cont1">
 
                         <br>
-                        <div id="botones" class="mb-2">
-                            <input class="btn btn-outline-success" type="submit" value="Enviar">
-                            <input class="boton2 btn btn-outline-danger " type="reset" value="Borrar">
-                        </div>
+                        <br>
+                        <br>
+                        <label class="m-1" for="mail">Tipo de arte que deseas:</label>
+                        <input class="ml-3" type="text" id="arte" name="arte" placeholder=" Ej. Orfebreria, Pintura artistica..." size="40" required="required">
+                        <br>
+                        <br>
+                        <label class="m-1" for="nombre">Idea de proyecto que deseas:</label>
+                        <input class="ml-1" type="text" id="idea" name="idea" placeholder="Cuentanos en breves palabras tu idea" size="30" required="required">
+                        <br>
+                        <br>
+                        <label class="m-1" for="nombre">Ingresa tus datos para contactarnos contigo:</label>
+                        <input class="ml-1" type="text" id="nombre" name="nombre" placeholder="Nombre completo" size="30" required="required">
+                        <input class="ml-1" type="text" id="correo" name="correo" placeholder="Correo electrónico" size="30" required="required">
+                        <input class="ml-1" type="text" id="numero" name="numero" placeholder="Número de contacto" size="30" required="required">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </fieldset>
 
-                    </form>
-                </article>
+                <br>
+                <div id="botones" class="mb-2">
+                    <input class="btn btn-outline-success" type="submit" value="Enviar">
+                    <input class="boton2 btn btn-outline-danger " type="reset" value="Borrar">
+                </div>
 
-
-
-        </div>
+            </form>
+        </article>
 
         <!--Fin Main Pagina-->
+        <!--Footer Pagina-->
 
-    </div>
+        <div class="container-fluid">
+            <footer class="row">
 
-    <hr class="my-5">
-    <!--Footer Pagina-->
+                <div class="bg-dark text-white text-center col-12 py-5">
 
-    <div class="container-fluid">
-        <footer class="row">
-
-            <div class="bg-dark text-white text-center col-12 py-5">
-
-            </div>
-        </footer>
-    </div>
+                </div>
+            </footer>
+        </div>
 </body>
 
 </html>
