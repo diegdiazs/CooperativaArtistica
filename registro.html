@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Contacto</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2? family = Crimson + Texto: ital @ 1 & display = swap " rel=" stylesheet ">
+    <title>Registro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -19,20 +20,20 @@
             $("#formulario").submit(function() {
                 var mensaje = "";
 
-                if ($("#numero").val().trim().length == 0) {
-                    mensaje = "Danos tu numero de contacto";
+                if ($("#comentario").val().trim().length == 0) {
+                    mensaje = "Escribenos en breves palabras algo de tus intereses";
                 }
-                if ($("#correo").val().trim().length == 0) {
-                    mensaje = "Debes ingresar un correo";
+                if ($("#telefono").val().trim().length == 0) {
+                    mensaje = "El telefono está en blanco";
+                }
+                if ($("#contraseña").val().trim().length == 0) {
+                    mensaje = "la contraseña está en blanco";
+                }
+                if ($("#email").val().trim().length == 0) {
+                    mensaje = "El mail está en blanco";
                 }
                 if ($("#nombre").val().trim().length == 0) {
-                    mensaje = "Ingresa tu nombre por favor";
-                }
-                if ($("#idea").val().trim().length == 0) {
-                    mensaje = "Debes describir tu idea";
-                }
-                if ($("#tipo").val().trim().length == 0) {
-                    mensaje = "Debes ingresar el tipo de arte";
+                    mensaje = "El nombre está en blanco";
                 }
                 if (mensaje != "") {
                     $("#error").html(mensaje);
@@ -42,10 +43,10 @@
             })
         })
     </script>
+
 </head>
 
 <body>
-
     <header>
         <nav>
             <a href="index.html">Inicio</a>
@@ -60,33 +61,47 @@
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #FFF;"></path>
+                    style="stroke: none; fill: #fff;"></path>
             </svg></div>
     </header>
-
-    <!--MainPagina-->
 
     <div class="container">
         <div class="row">
             <form method="post" action="procesar.php" id="formulario">
-                <h1 class="text-center">Contactanos! </h1>
-                <br>
                 <div class="form-group">
-                    <label for="tipo">Tipo de arte que deseas: </label>
-                    <input type="tipo" class="form-control" id="tipo" name="tipo" placeholder="Orfebreria, Pintura, Fotografía...">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre...">
                 </div>
                 <div class="form-group">
-                    <label for="idea">Idea de proyecto: </label>
-                    <input type="idea" class="form-control" id="idea" name="idea" placeholder="Danos una breve descripción de tu idea de proyecto">
+                    <label for="email">Correo Electrónico: </label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Ej.: abcdefg@gmail.com">
                 </div>
-                <div>
-                    <label for="datos">Ingresa tus datos para contactarnos contigo:</label>
-                    <input class="ml-1" type="nombre" id="nombre" name="nombre" placeholder="Nombre completo" size="30">
-                    <input class="ml-1" type="correo" id="correo" name="correo" placeholder="Correo electrónico" size="30">
-                    <input class="ml-1" type="numero" id="numero" name="numero" placeholder="Número de contacto" size="30">
+                <div class="form-group">
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="contraseña" class="form-control" id="contraseña" name="contraseña" placeholder="*******">
                 </div>
-                <br>
-                <br>
+                <div class="form-group">
+                    <label for="telefono">Telefono: </label>
+                    <input type="telefono" class="form-control" id="telefono" name="telefono" placeholder="ej.: 987654321 o +56987654321">
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Dejanos un comentario sobre tus intereses: </label>
+                    <input type="comentario" class="form-control" id="comentario" name="comentario" placeholder="Agrega una pequeña descripción...">
+                </div>
+                <div class="form-group">
+                    <label for="interes">Selecciona lo que más te interesa: </label>
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="orf">Orfebreria</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="fotos">Photografia</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="pinturas">pintura</label>
+                        </div>
+                    </div>
+                </div>
 
                 <input type="submit" class="btn btn-danger" id="enviar" value="Enviar">
                 <input type="reset" class="btn btn-primary" id="limpiar" value="Empezar denuevo">
@@ -94,7 +109,6 @@
             </form>
         </div>
     </div>
-
 </body>
 
 </html>
