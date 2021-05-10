@@ -705,7 +705,7 @@ button:hover {
 }
 
 .texton {
-    border: 5px solid darkblue;
+    border: 5px;
     width: 300px;
     margin: 10%;
     padding: 10%;
