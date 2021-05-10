@@ -699,3 +699,8 @@ button:hover {
     color: #0C7489;
     margin-bottom: 0;
 }
+
+#map {
+    height: 500px;
+    width: 100%;
+}
