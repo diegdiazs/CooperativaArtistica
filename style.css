@@ -700,6 +700,6 @@ button:hover {
 }
 
 #map {
-    height: 400px;
+    height: 100%;
     width: 39%;
 }
