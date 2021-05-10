@@ -593,7 +593,6 @@ button {
 .submits {
     width: 48%;
     display: inline-block;
-    float: right;
     margin-left: 2%;
 }
 
