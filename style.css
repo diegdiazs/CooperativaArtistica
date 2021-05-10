@@ -703,3 +703,10 @@ button:hover {
     height: 390px;
     width: 39%;
 }
+
+.texton {
+    border: 5px solid darkblue;
+    width: 300px;
+    margin: 10%;
+    padding: 10%;
+}
