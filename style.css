@@ -711,5 +711,5 @@ button:hover {
     background-attachment: fixed;
     width: 300px;
     height: 600px;
-    position: absolute;
+    position: relative;
 }
