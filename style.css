@@ -702,6 +702,7 @@ button:hover {
 #map {
     height: 390px;
     width: 39%;
+    float: left;
 }
 
 .texton {
