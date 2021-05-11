@@ -711,5 +711,6 @@ button:hover {
     background-attachment: fixed;
     position: relative;
     width: 300px;
-    height: auto;
+    height: 61%;
+    float: right;
 }
