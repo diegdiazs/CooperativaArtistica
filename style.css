@@ -710,7 +710,6 @@ button:hover {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    border: 5px;
     width: 300px;
     height: auto;
     margin: 10%;
