@@ -709,7 +709,6 @@ button:hover {
     background: linear-gradient(to right, hsla(0, 26%, 50%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/cafeteria2.jpg);
     background-size: auto;
     background-attachment: fixed;
-    position: relative;
     width: 300px;
     height: 61%;
 }
