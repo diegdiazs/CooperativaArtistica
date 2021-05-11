@@ -715,3 +715,9 @@ button:hover {
     height: 390px;
     float: right;
 }
+
+.exp {
+    height: 390px;
+    width: 39%;
+    float: left;
+}
