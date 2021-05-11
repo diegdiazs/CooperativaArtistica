@@ -712,5 +712,5 @@ button:hover {
     position: relative;
     width: 300px;
     height: 61%;
-    float: right;
+    margin-top: right;
 }
