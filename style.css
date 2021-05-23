@@ -716,12 +716,14 @@ button:hover {
     height: 300px;
     width: 39%;
     float: left;
+    text-align: left;
 }
 
 .exp2 {
     height: 300px;
     width: 61%;
     float: right;
+    text-align: left;
 }
 
 
