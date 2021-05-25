@@ -9,15 +9,7 @@
 header {
     width: 100%;
     height: 577px;
-    background: #bc4e9c;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 1%, 32%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/portada.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 1%, 32%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/portada.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+    background: #532e1d;
 }
 
 nav {
@@ -58,8 +50,18 @@ header .textos-header {
 }
 
 body {
-    background-color: #FDCA40;
+    background-color: #723c23be;
     font-family: 'Crimson Text', serif;
+    width: 100%;
+    height: 770px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 1%, 32%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/portada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 1%, 32%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/portada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .navegacion {
@@ -440,7 +442,6 @@ body {
 
 body {
     background-image: #fff;
-    background-image: #fff;
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Vibur', cursive;
@@ -641,8 +642,8 @@ button:hover {
 
 .footer-basic {
     padding: 40px 0;
-    background-color: #000;
-    color: #4b4c4d;
+    background-color: rgb(88, 58, 24);
+    color: #000000;
 }
 
 .footer-basic ul {
@@ -681,7 +682,7 @@ button:hover {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #0C7489;
+    border: 1px solid #000000;
     margin: 0 8px;
     color: inherit;
     opacity: 0.75;
@@ -695,7 +696,7 @@ button:hover {
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
-    color: #0C7489;
+    color: #000000;
     margin-bottom: 0;
 }
 
@@ -706,11 +707,6 @@ button:hover {
 }
 
 .texton {
-    background-color: #00000083;
-    background: linear-gradient(to right, hsla(0, 26%, 50%, 0.459), hsla(300, 1%, 22%, 0.664)), url(img/cafeteria2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
     width: 61%;
     height: 390px;
     float: right;
@@ -720,12 +716,14 @@ button:hover {
     height: 300px;
     width: 39%;
     float: left;
+    text-align: left;
 }
 
 .exp2 {
     height: 300px;
     width: 61%;
     float: right;
+    text-align: left;
 }
 
 
