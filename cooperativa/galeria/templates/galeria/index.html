@@ -27,11 +27,11 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="exposiciones.html">Exposiciones</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="registro.html">Registrarse</a>
-            <a href="inicio sesion.html">Iniciar Sesion</a>
+            <a href="{% url 'home' %}">Inicio</a>
+            <a href="{% url 'exposiciones' %}">Exposiciones</a>
+            <a href="{% url 'contacto' %}">Contacto</a>
+            <a href="{% url 'registro' %}">Registrarse</a>
+            <a href="{% url 'iniciosesion' %}">Iniciar Sesion</a>
         </nav>
         <section class="textos-header">
             <h1>Galeria Grupo Cero</h1>

@@ -13,7 +13,7 @@ def fotografia(request):
     return render(request,'galeria/fotografia.html')
 
 def iniciosesion(request):
-    return render(request,'galeria/inicio sesion.html')
+    return render(request,'galeria/iniciosesion.html')
 
 def registro(request):
     return render(request,'galeria/registro.html')

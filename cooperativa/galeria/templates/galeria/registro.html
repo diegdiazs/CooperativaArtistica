@@ -50,11 +50,11 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="exposiciones.html">Exposiciones</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="registro.html">Registrarse</a>
-            <a href="inicio sesion.html">Iniciar Sesion</a>
+            <a href="{% url 'home' %}">Inicio</a>
+            <a href="{% url 'exposiciones' %}">Exposiciones</a>
+            <a href="{% url 'contacto' %}">Contacto</a>
+            <a href="{% url 'registro' %}">Registrarse</a>
+            <a href="{% url 'iniciosesion' %}">Iniciar Sesion</a>
         </nav>
         <section class="textos-header">
             <h1>Galeria Grupo Cero</h1>
@@ -62,7 +62,7 @@
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
+                style="stroke: none; fill: #FDCA40;"></path>
             </svg></div>
     </header>
 
